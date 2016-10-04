@@ -11,11 +11,4 @@ let systemInfo = {
 }
 
 
-
-
-
-
-
-
-
 console.log(systemInfo);
