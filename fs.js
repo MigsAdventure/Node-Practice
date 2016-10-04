@@ -12,8 +12,18 @@ const path = require('path');
 // fs.unlinkSync('/tmp/hello');
 // console.log('successfully deleted /tmp/hello');
 
-fs.readFile(path.resolve('readMe.md'), (err, buffer) => {
-  console.log('err: ', err);
-  console.log('buffer: ', buffer);
-  console.log('buffer.toString(): ', buffer.toString());
-})
+// fs.readFile(path.resolve('readMe.md'), (err, buffer) => {
+//   console.log('err: ', err);
+//   console.log('buffer: ', buffer);
+//   console.log('buffer.toString(): ', buffer.toString());
+// })
+
+// fs.readdir(path.resolve(), (err, buffer) => {
+//   console.log('buffer: ', buffer);
+//   console.log('buffer.toString(): ', buffer.toString())
+// })
+
+// fs.mkdir(path.resolve(), (err,buffer) => {
+
+// })
+
